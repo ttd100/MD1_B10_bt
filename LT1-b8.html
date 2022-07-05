@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let N = +prompt('Nhập vào N: ');
+    for(let i = 0; i < N; i++) {
+        console.log('i =========================',i)
+        for(let j=0; j<i; j++){ //Vong lap de ve cac khoang trang
+            console.log('j ========== ',j)
+            document.write("&nbsp;&nbsp;");
+        }
+        for(let k=i; k < N; k++){
+            console.log('k ==========',k)
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+</script>
+</body>
+</html>
